@@ -4,7 +4,7 @@
 
 ---
 name: emoji
-version: "2023-04-19"
+version: "2023-07-29"
 sort: by_weight
 ...
 
@@ -37,6 +37,7 @@ sort: by_weight
 眯眼笑	mi yan xiao
 笑死	xiao si
 好耶	hao ye
+笑晕	xiao yun
 汗	han
 冷汗	leng han
 冒汗	mao han
@@ -133,6 +134,7 @@ sort: by_weight
 小点儿声	xiao dian er sheng
 小声点	xiao sheng dian
 小声点儿	xiao sheng dian er
+别说话	bie shuo hua
 深思的脸	shen si de lian
 深思	shen si
 思考	si kao
@@ -146,8 +148,12 @@ sort: by_weight
 呃	e
 疑问	yi wen
 可能	ke neng
+不理解	bu li jie
+不明白	bu ming bai
 敬礼	jing li
 致敬	zhi jing
+尊敬	zun jing
+尊重	zun zhong
 瑞思拜	rui si bai
 闭嘴	bi zui
 秘密	mi mi
@@ -188,13 +194,16 @@ sort: by_weight
 唉	ai
 无奈	wu nai
 长鼻子	zhang bi zi
+长鼻	zhang bi
 匹诺曹	pi nuo cao
 说谎	shuo huang
 撒谎	sa huang
 乱讲	luan jiang
 胡说	hu shuo
+骗子	pian zi
 骗人	pian ren
 骗人布	pian ren bu
+乌索普	wu suo pu
 摇头	yao tou
 晃脑	huang nao
 摇头晃脑	yao tou huang nao
@@ -229,6 +238,7 @@ sort: by_weight
 量体温	liang ti wen
 发烧	fa shao
 受伤	shou shang
+负伤	fu shang
 绷带	beng dai
 缠绷带	chan beng dai
 缠满绷带	chan man beng dai
@@ -252,6 +262,7 @@ sort: by_weight
 辣死了	la si le
 热死	re si
 热死了	re si le
+爆辣	bao la
 冷	leng
 冰冷	bing leng
 好冷	hao leng
@@ -281,6 +292,7 @@ sort: by_weight
 脑子爆炸	nao zi bao zha
 脑袋爆炸	nao dai bao zha
 脑爆炸	nao bao zha
+大脑爆炸	da nao bao zha
 爆头	bao tou
 牛仔	niu zai
 牛仔帽	niu zai mao
@@ -368,9 +380,11 @@ sort: by_weight
 忍耐	ren nai
 失望	shi wang
 难过	nan guo
+倒霉	dao mei
 疲倦	pi juan
 疲劳	pi lao
 疲惫	pi bei
+焦躁	jiao zao
 抓狂	zhua kuang
 呵欠	he qian
 哈欠	ha qian
@@ -711,11 +725,13 @@ sort: by_weight
 第一	di yi
 食指指向观察者	shi zhi zhi xiang guan cha zhe
 指向观察者的食指	zhi xiang guan cha zhe de shi zhi
-你	ni
 你自己	ni zi ji
 就是你	jiu shi ni
 指着	zhi zhe
 指着你	zhi zhe ni
+指你	zhi ni
+指我	zhi wo
+指人	zhi ren
 拇指	mu zhi
 大拇指	da mu zhi
 大拇指向上	da mu zhi xiang shang
@@ -744,15 +760,16 @@ sort: by_weight
 厉害	li hai
 赞	zan
 点赞	dian zan
+绝了	jue le
 大拇指向下	da mu zhi xiang xia
 大拇指朝下	da mu zhi chao xia
 拇指朝下	mu zhi chao xia
 不好	bu hao
 不强	bu qiang
 不棒	bu bang
-垃圾	la ji
 太差	tai cha
 太差了	tai cha le
+太差啦	tai cha la
 差劲	cha jin
 举起拳头	ju qi quan tou
 举起的拳头	ju qi de quan tou
@@ -810,6 +827,7 @@ sort: by_weight
 肱二头	gong er tou
 强壮	qiang zhuang
 肌肉	ji rou
+秀肌肉	xiu ji rou
 健身	jian shen
 奋斗	fen dou
 努力	nu li
@@ -824,6 +842,7 @@ sort: by_weight
 大腿	da tui
 练腿	lian tui
 脚	jiao
+足	zu
 踢	ti
 踩	cai
 脚丫	jiao ya
@@ -851,6 +870,7 @@ sort: by_weight
 呼吸作用	hu xi zuo yong
 牙	ya
 牙齿	ya chi
+牙牙	ya ya
 骨头	gu tou
 骨骼	gu ge
 眼	yan
@@ -986,6 +1006,7 @@ sort: by_weight
 我知道	wo zhi dao
 这个我知道	zhe ge wo zhi dao
 失聪者	shi cong zhe
+失聪	shi cong
 耳聋	er long
 聋子	long zi
 不好意思	bu hao yi si
@@ -1452,6 +1473,9 @@ sort: by_weight
 狗脸	gou lian
 狗头	gou tou
 小狗	xiao gou
+旺柴	wang chai
+旺财	wang cai
+狗仔	gou zai
 犬	quan
 狗子	gou zi
 狗狗	gou gou
@@ -1716,8 +1740,11 @@ sort: by_weight
 蛛网	zhu wang
 蜘蛛网	zhi zhu wang
 蝎子	xie zi
+蚊蝇	wen ying
 蚊子	wen zi
+蚊虻	wen meng
 苍蝇	cang ying
+家蝇	jia ying
 蠕虫	ru chong
 寄生虫	ji sheng chong
 蚯蚓	qiu yin
@@ -2009,10 +2036,14 @@ sort: by_weight
 外卖包装	wai mai bao zhuang
 外卖桶	wai mai tong
 螃蟹	pang xie
+蟹	xie
+蟹老板	xie lao ban
 龙虾	long xia
 小龙虾	xiao long xia
+麻辣小龙虾	ma la xiao long xia
 虾	xia
 大虾	da xia
+对虾	dui xia
 鱿鱼	you yu
 乌贼	wu zei
 墨鱼	mo yu
@@ -2107,6 +2138,8 @@ sort: by_weight
 玻璃瓶	bo li ping
 双耳瓶	shuang er ping
 地球	di qiu
+子午线	zi wu xian
+经纬线	jing wei xian
 地球仪	di qiu yi
 欧洲	ou zhou
 非洲	fei zhou
@@ -2126,8 +2159,6 @@ sort: by_weight
 澳洲地球仪	ao zhou di qiu yi
 亚澳地球仪	ya ao di qiu yi
 澳亚地球仪	ao ya di qiu yi
-子午线	zi wu xian
-经纬线	jing wei xian
 世界地图	shi jie di tu
 日本剪影	ri ben jian ying
 日本地图	ri ben di tu
@@ -2180,6 +2211,7 @@ sort: by_weight
 居民区	ju min qu
 废弃的房屋	fei qi de fang wu
 荒宅	huang zhai
+危楼	wei lou
 家	jia
 住宅楼	zhu zhai lou
 房子	fang zi
@@ -2262,6 +2294,8 @@ sort: by_weight
 山顶日出	shan ding ri chu
 山中日出	shan zhong ri chu
 日出	ri chu
+旭日	xu ri
+旭日东升	xu ri dong sheng
 暮色中的城市	mu se zhong de cheng shi
 暮色	mu se
 黄昏	huang hun
@@ -2316,6 +2350,7 @@ sort: by_weight
 无轨电车	wu gui dian che
 电车	dian che
 面包车	mian bao che
+小巴	xiao ba
 救护车	jiu hu che
 急救车	ji jiu che
 消防车	xiao fang che
@@ -2335,6 +2370,7 @@ sort: by_weight
 皮卡车	pi ka che
 送货车	song huo che
 货车	huo che
+物流	wu liu
 拖车	tuo che
 卡车	ka che
 大卡车	da ka che
@@ -2345,7 +2381,9 @@ sort: by_weight
 摩托车	mo tuo che
 小型摩托车	xiao xing mo tuo che
 电动车	dian dong che
+小电驴	xiao dian lv
 轮椅	lun yi
+残疾人	can ji ren
 嘟嘟车	du du che
 三蹦子	san beng zi
 三脚鸡	san jiao ji
@@ -2385,6 +2423,7 @@ sort: by_weight
 红绿灯	hong lv deng
 八边形	ba bian xing
 施工符号	shi gong fu hao
+施工中	shi gong zhong
 前方施工	qian fang shi gong
 路障	lu zhang
 锚	mao
@@ -2510,24 +2549,33 @@ sort: by_weight
 有环行星	you huan xing xing
 星球	xing qiu
 五角星	wu jiao xing
+星星	xing xing
 闪耀的星星	shan yao de xing xing
 闪亮的星星	shan liang de xing xing
-星星	xing xing
 流星	liu xing
 许愿	xu yuan
 星空	xing kong
 银河	yin he
 银河系	yin he xi
+云	yun
 云彩	yun cai
+云朵	yun duo
 乌云蔽日	wu yun bi ri
 多云	duo yun
 阴天	yin tian
 雷阵雨	lei zhen yu
+大雨	da yu
+下大雨	xia da yu
 少云	shao yun
 晴偶有云	qing ou you yun
+白日小云	bai ri xiao yun
 下雨	xia yu
+雨	yu
+雨云	yu yun
 下雪	xia xue
+雪云	xue yun
 打雷	da lei
+雷云	lei yun
 龙卷风	long juan feng
 雾	wu
 霾	mai
@@ -2535,6 +2583,8 @@ sort: by_weight
 风吹拂的脸	feng chui fu de lian
 风吹拂	feng chui fu
 吹拂	chui fu
+吹风	chui feng
+吹口气	chui kou qi
 台风	tai feng
 旋风	xuan feng
 飓风	ju feng
@@ -2551,6 +2601,7 @@ sort: by_weight
 遮阳伞	zhe yang san
 闪电	shan dian
 高压电	gao ya dian
+雪	xue
 雪花	xue hua
 雪人	xue ren
 堆雪人	dui xue ren
@@ -2564,6 +2615,9 @@ sort: by_weight
 着火	zhao huo
 着火了	zhao huo le
 火了	huo le
+汗滴	han di
+一滴水	yi di shui
+一滴	yi di
 波浪	bo lang
 浪花	lang hua
 浪	lang
@@ -2600,6 +2654,7 @@ sort: by_weight
 风铃	feng ling
 中秋	zhong qiu
 中秋节	zhong qiu jie
+中秋佳节	zhong qiu jia jie
 观月	guan yue
 赏月	shang yue
 红包	hong bao
@@ -2674,6 +2729,7 @@ sort: by_weight
 驾雪橇	jia xue qiao
 坐雪橇	zuo xue qiao
 冰上溜石	bing shang liu shi
+溜石	liu shi
 冰壶	bing hu
 靶心	ba xin
 正中靶心的飞镖	zheng zhong ba xin de fei biao
@@ -2710,6 +2766,8 @@ sort: by_weight
 酒桌游戏	jiu zhuo you xi
 拼图	pin tu
 拼图块	pin tu kuai
+拼块	pin kuai
+拼块儿	pin kuai er
 泰迪熊	tai di xiong
 泰迪	tai di
 皮纳塔	pi na ta
@@ -2720,6 +2778,9 @@ sort: by_weight
 扑克	pu ke
 黑桃	hei tao
 红桃	hong tao
+爱	ai
+红心	hong xin
+心形	xin xing
 方片	fang pian
 方板	fang ban
 梅花	mei hua
@@ -2761,6 +2822,8 @@ sort: by_weight
 近视	jin shi
 近视眼	jin shi yan
 护目镜	hu mu jing
+泳镜	yong jing
+游泳镜	you yong jing
 实验室外衣	shi yan shi wai yi
 白大褂	bai da gua
 白大褂儿	bai da gua er
@@ -2898,7 +2961,7 @@ sort: by_weight
 大喇叭	da la ba
 邮政喇叭	you zheng la ba
 铃铛	ling dang
-镜音铃铛	jing yin ling dang
+静音铃铛	jing yin ling dang
 响铃关闭	xiang ling guan bi
 禁止响铃	jin zhi xiang ling
 乐谱	yue pu
@@ -3027,6 +3090,8 @@ sort: by_weight
 灯泡	deng pao
 电灯泡	dian deng pao
 白炽灯	bai chi deng
+灯	deng
+电灯	dian deng
 手电	shou dian
 手电筒	shou dian tong
 电筒	dian tong
@@ -3044,6 +3109,8 @@ sort: by_weight
 小红书	xiao hong shu
 第一卷	di yi juan
 书	shu
+书本	shu ben
+打开的书	da kai de shu
 打开的书本	da kai de shu ben
 绿色的书	lv se de shu
 绿色书本	lv se shu ben
@@ -3058,7 +3125,6 @@ sort: by_weight
 橘色书本	ju se shu ben
 第四卷	di si juan
 图书	tu shu
-书本	shu ben
 账簿	zhang bu
 带卷边的纸	dai juan bian de zhi
 卷边的纸	juan bian de zhi
@@ -3072,6 +3138,7 @@ sort: by_weight
 报纸卷	bao zhi juan
 书签标签	shu qian biao qian
 标签页	biao qian ye
+页签	ye qian
 书签	shu qian
 标签	biao qian
 吊牌	diao pai
@@ -3082,6 +3149,7 @@ sort: by_weight
 硬币	ying bi
 钢镚	gang beng
 钢镚儿	gang beng er
+钱币	qian bi
 日元钞票	ri yuan chao piao
 美元钞票	mei yuan chao piao
 钞票	chao piao
@@ -3108,9 +3176,12 @@ sort: by_weight
 来信	lai xin
 收到来信	shou dao lai xin
 收到邮件	shou dao you jian
+新邮件	xin you jian
+发件	fa jian
 发件箱	fa jian xiang
 发信	fa xin
 发邮件	fa you jian
+收件	shou jian
 收件箱	shou jian xiang
 收信	shou xin
 收邮件	shou you jian
@@ -3118,6 +3189,8 @@ sort: by_weight
 快递	kuai di
 纸箱	zhi xiang
 纸箱子	zhi xiang zi
+箱子	xiang zi
+打包	da bao
 信箱	xin xiang
 邮筒	you tong
 邮箱	you xiang
@@ -3171,6 +3244,7 @@ sort: by_weight
 废纸篓	fei zhi lou
 垃圾桶	la ji tong
 垃圾篓	la ji lou
+垃圾	la ji
 锁	suo
 合上的锁	he shang de suo
 门锁	men suo
@@ -3216,6 +3290,7 @@ sort: by_weight
 回旋镖	hui xuan biao
 飞旋镖	fei xuan biao
 回力棒	hui li bang
+回力镖	hui li biao
 弓箭	gong jian
 弓和箭	gong he jian
 盾牌	dun pai
@@ -3238,6 +3313,7 @@ sort: by_weight
 铁链	tie lian
 锁链	suo lian
 链子	lian zi
+铁链子	tie lian zi
 钩子	gou zi
 挂钩	gua gou
 铁钩	tie gou
@@ -3245,9 +3321,14 @@ sort: by_weight
 工具箱	gong ju xiang
 磁铁	ci tie
 吸铁石	xi tie shi
+磁力	ci li
+磁石	ci shi
 梯子	ti zi
 爬梯	pa ti
 爬梯子	pa ti zi
+翻墙	fan qiang
+科学上网	ke xue shang wang
+魔法上网	mo fa shang wang
 蒸馏器	zheng liu qi
 试管	shi guan
 培养皿	pei yang min
@@ -3514,6 +3595,7 @@ sort: by_weight
 六角星	liu jiao xing
 六芒星	liu mang xing
 魔法阵	mo fa zhen
+锡克	xi ke
 锡克教	xi ke jiao
 坎达	kan da
 坎达符号	kan da fu hao
@@ -3532,6 +3614,7 @@ sort: by_weight
 蛇夫座	she fu zuo
 随机播放	sui ji bo fang
 随机	sui ji
+交叉箭头	jiao cha jian tou
 循环播放	xun huan bo fang
 单曲循环	dan qu xun huan
 播放	bo fang
@@ -3615,15 +3698,15 @@ sort: by_weight
 问号	wen hao
 白色问号	bai se wen hao
 白问号	bai wen hao
+感叹号	gan tan hao
+惊叹号	jing tan hao
+叹号	tan hao
 白色感叹号	bai se gan tan hao
 白色惊叹号	bai se jing tan hao
 白色叹号	bai se tan hao
 白感叹号	bai gan tan hao
 白惊叹号	bai jing tan hao
 白叹号	bai tan hao
-感叹号	gan tan hao
-惊叹号	jing tan hao
-叹号	tan hao
 波浪型破折号	bo lang xing po zhe hao
 波浪线	bo lang xian
 兑换	dui huan
@@ -3656,6 +3739,8 @@ sort: by_weight
 日本新手驾驶标志	ri ben xin shou jia shi biao zhi
 日本初学者标志	ri ben chu xue zhe biao zhi
 对	dui
+答对	da dui
+答对了	da dui le
 正确	zheng que
 圆圈	yuan quan
 对号	dui hao
@@ -3668,6 +3753,8 @@ sort: by_weight
 打钩	da gou
 打对钩	da dui gou
 错	cuo
+答错	da cuo
+答错了	da cuo le
 错号	cuo hao
 错误	cuo wu
 叉	cha
@@ -3728,6 +3815,7 @@ sort: by_weight
 新	xin
 新的	xin de
 新建	xin jian
+全新	quan xin
 重拍	chong pai
 停车	ting che
 停车场	ting che chang
@@ -3788,6 +3876,7 @@ sort: by_weight
 棕色	zong se
 圆形	yuan xing
 围棋	wei qi
+黑白棋	hei bai qi
 黑色	hei se
 黑子	hei zi
 黑棋	hei qi
@@ -3803,6 +3892,8 @@ sort: by_weight
 元宵	yuan xiao
 汤圆	tang yuan
 雪球	xue qiu
+小圆点	xiao yuan dian
+小圆点儿	xiao yuan dian er
 正方形	zheng fang xing
 方块	fang kuai
 方形	fang xing

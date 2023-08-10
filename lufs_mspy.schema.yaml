@@ -2,16 +2,13 @@
 # encoding: utf-8
 
 schema:
-  schema_id: lufs_flypy
-  name: 小鹤双拼
-  version: "2023-05-08"
+  schema_id: lufs_mspy
+  name: 微软双拼
+  version: "2023-06-29"
   author:
-    - double pinyin layout by 鶴
-    - Rime schema by 佛振 <chen.sst@gmail.com>
     - Modified by Lufs_X <i@isteed.cc>
   description: |
-    小鹤双拼方案。
-    稍微的改了一下（小声
+    微软双拼方案
 
 switches:
   - name: ascii_mode
@@ -70,7 +67,7 @@ emoji_suggestion:
   tips: false
 
 speller:
-  alphabet: zyxwvutsrqponmlkjihgfedcba/
+  alphabet: zyxwvutsrqponmlkjihgfedcba/;
   delimiter: " '"
   algebra:
     - erase/^xx$/
@@ -106,7 +103,7 @@ speller:
     # - derive/([i])ng$/$1n/ # in -> ing
     # - derive/([i])an$/$1ang/ # iang -> ian
     # - derive/([i])ang$/$1an/ # ian -> iang
-    # 由于小鹤双拼特性，无需 uang <-> iang
+    # 由于双拼特性，无需 uang <-> iang
 
     # 其它模糊音
     # - derive/^hui$/fei/ # fei -> hui
@@ -115,35 +112,37 @@ speller:
     # - derive/^wang$/huang/ # huang -> wang
     # - derive/^([bpmfw])eng$/$1ong/ # bpmfw 后接 ong -> bpmfw 后接 eng
 
-    # 小鹤双拼码表
+    # 微软双拼码表
     - derive/^([jqxy])u$/$1v/
     - derive/^([aoe])([ioun])$/$1$1$2/
     - xform/^([aoe])(ng)?$/$1$1$2/
     - xform/iu$/Q/
-    - xform/(.)ei$/$1W/
-    - xform/uan$/R/
+    - xform/[iu]a$/W/
+    - xform/er$|[uv]an$/R/
     - xform/[uv]e$/T/
-    - xform/un$/Y/
+    - xform/v$|uai$/Y/
     - xform/^sh/U/
     - xform/^ch/I/
     - xform/^zh/V/
     - xform/uo$/O/
-    - xform/ie$/P/
+    - xform/[uv]n$/P/
     - xform/i?ong$/S/
-    - xform/ing$|uai$/K/
-    - xform/(.)ai$/$1D/
+    - xform/[iu]ang$/D/
     - xform/(.)en$/$1F/
     - xform/(.)eng$/$1G/
-    - xform/[iu]ang$/L/
     - xform/(.)ang$/$1H/
     - xform/ian$/M/
     - xform/(.)an$/$1J/
-    - xform/(.)ou$/$1Z/
-    - xform/[iu]a$/X/
-    - xform/iao$/N/
-    - xform/(.)ao$/$1C/
+    - xform/iao$/C/
+    - xform/(.)ao$/$1K/
+    - xform/(.)ai$/$1L/
+    - xform/(.)ei$/$1Z/
+    - xform/ie$/X/
     - xform/ui$/V/
-    - xform/in$/B/
+    - derive/T$/V/
+    - xform/(.)ou$/$1B/
+    - xform/in$/N/
+    - xform/ing$/;/
     - xlit/QWRTYUIOPSDFGHJKLZXCVBNM/qwrtyuiopsdfghjklzxcvbnm/
 
     # 简拼支持
@@ -153,7 +152,7 @@ translator:
   dictionary: extended
   preedit_format:
     # - xform/ // # 去掉上屏字符间空格
-  prism: lufs_flypy
+  prism: lufs_mspy
   contextual_suggestions: true
   max_homophones: 7
 
