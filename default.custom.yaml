@@ -1,0 +1,9 @@
+# Rime default settings
+# encoding: utf-8
+
+patch:
+  "menu/page_size": 8
+  switcher:
+    hotkeys:
+      - Control+grave
+      - Control+Shift+grave

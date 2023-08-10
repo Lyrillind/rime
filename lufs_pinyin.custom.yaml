@@ -1,0 +1,71 @@
+# Rime schema
+# encoding: utf-8
+
+patch:
+  speller:
+    algebra:
+      - erase/^xx$/
+      - erase/^hm$/
+      - erase/^m$/
+      - erase/^n$/
+      - erase/^ng$/
+
+      # 简拼支持
+      - abbrev/^(.).+$/$1/
+
+      # 模糊音区域
+      # 依据个人情况修改注释～
+      # 注释格式：键盘的输入码 -> 转化后的输入码
+
+      # 声母部分
+      # - derive/^([z])h/$1/ # z -> zh
+      # - derive/^([z])([^h])/$1h$2/ # zh -> z
+      # - derive/^([c])h/$1/ # c -> ch
+      # - derive/^([c])([^h])/$1h$2/ # ch -> c
+      # - derive/^([s])h/$1/ # s -> sh
+      # - derive/^([s])([^h])/$1h$2/ # sh -> s
+      # - derive/^l/n/ # n -> l
+      # - derive/^n/l/ # l -> n
+      # - derive/^r/l/ # l -> r
+      # - derive/^r/y/ # y -> r
+      # - derive/^hu$/fu/ # fu -> hu
+      # - derive/^fu$/hu/ # hu -> fu
+
+      # 韵母部分
+      # - derive/([^iu])([a])n$/$1$2ng/ # ang -> an
+      # - derive/([^iu])([a])ng$/$1$2n/ # an -> ang
+      - derive/([e])n$/$1ng/ # eng -> en
+      - derive/([e])ng$/$1n/ # en -> eng
+      - derive/([i])n$/$1ng/ # ing -> in
+      - derive/([i])ng$/$1n/ # in -> ing
+      # - derive/([i])an$/$1ang/ # iang -> ian
+      # - derive/([i])ang$/$1an/ # ian -> iang
+      # - derive/([u])an$/$1ang/ # uang -> uan
+      # - derive/([u])ang$/$1an/ # uan -> uang
+
+      # 其它模糊音
+      # - derive/^hui$/fei/ # fei -> hui
+      # - derive/^fei$/hui/ # hui -> fei
+      # - derive/^huang$/wang/ # wang -> huang
+      # - derive/^wang$/huang/ # huang -> wang
+      # - derive/^([bpmfw])eng$/$1ong/ # bpmfw 后接 ong -> bpmfw 后接 eng
+
+      # 容错拼写
+      - derive/^([nl])ve$/$1ue/ # nue -> nve, lue -> lve
+      - derive/^([jqxy])u/$1v/ # jv -> ju
+      # - derive/un$/uen/ # guen -> gun
+      # - derive/ui$/uei/ # guei -> gui
+      # - derive/iu$/iou/ # jiou -> jiu
+
+      # 按键纠错
+      - derive/([aeiou])ng$/$1gn/ # dagn -> dang
+      - derive/([dtngkhrzcs])o(u|ng)$/$1o/ # zho -> zhong|zhou
+      - derive/ong$/on/ # zhonguo -> zhong guo
+      - derive/ao$/oa/ # hoa -> hao
+      - derive/([iu])a(o|ng?)$/a$1$2/ # tain -> tian
+      - derive/^([csz])h/h$1/ # hc、hs、hz -> ch、sh、zh
+  recognizer:
+    import_preset: default
+    patterns:
+      punct: "^v([0-9]0?|[A-Za-z]+)$" # 响应 lufs_symbols.yaml 内的输入
+      unicode: "^U[a-f0-9]+" # 响应 Unicode

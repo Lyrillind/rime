@@ -1,0 +1,8 @@
+# Squirrel settings
+# encoding: utf-8
+# 修改自: https://github.com/rime/squirrel/blob/master/data/squirrel.yaml
+
+patch:
+  style:
+    color_scheme: apathy
+    color_scheme_dark: apathy
