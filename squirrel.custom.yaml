@@ -13,7 +13,7 @@ patch:
       alpha: 0.95
       horizontal: true
       inline_preedit: true
-      candidate_format: "%c\u2005%@"
+      candidate_format: "\u2005%c\u2005%@\u2005"
       font_face: "MiSans,PingFangSC-Regular,HanaMinB"
       label_font_face: "AribauGrotesk-Regular"
       corner_radius: 6
