@@ -4,8 +4,8 @@
 
 patch:
   style:
-    color_scheme: orange_heart
-    color_scheme_dark: orange_heart
+    color_scheme: apathy
+    color_scheme_dark: apathy
   preset_color_schemes/+:
     apathy:
       name: 冷漠／Apathy
